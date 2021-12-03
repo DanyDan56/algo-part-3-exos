@@ -6,6 +6,10 @@
  */
 function oddOrEven(number) {
     // CODE HERE
+    if(number % 2 === 0)
+        return "Even";
+    else
+        return "Odd"
 }
 
 export { oddOrEven };
