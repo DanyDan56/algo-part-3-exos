@@ -5,14 +5,11 @@
  */
 function average(scores) {
     // CODE HERE
-    let i = 0;
     let average = 0;
 
-    while (i < scores.length)
-    {
-        average += scores[i];
-        ++i;
-    }
+    scores.forEach(function(score){
+        average += score;
+    });
     
     average /= scores.length;
 
