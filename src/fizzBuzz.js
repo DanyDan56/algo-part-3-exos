@@ -10,7 +10,6 @@
 function fizzBuzz(min, max) {
     // CODE HERE
     let array = [];
-    let i = min;
 
     for (let i = min; i < max; i++) {
         if(i % 3 === 0 && i % 5 === 0)
