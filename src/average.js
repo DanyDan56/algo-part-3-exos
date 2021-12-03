@@ -14,7 +14,7 @@ function average(scores) {
         ++i;
     }
     
-    average = average / scores.length;
+    average /= scores.length;
 
     return average;
 }
