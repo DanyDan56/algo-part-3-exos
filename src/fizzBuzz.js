@@ -12,7 +12,7 @@ function fizzBuzz(min, max) {
     let array = [];
     let i = min;
 
-    while (i < max) {
+    for (let i = min; i < max; i++) {
         if(i % 3 === 0 && i % 5 === 0)
             array.push("FizzBuzz");
         else if(i % 3 === 0)
@@ -21,8 +21,6 @@ function fizzBuzz(min, max) {
             array.push("Buzz");
         else
             array.push(i);
-
-        ++i;
     }
 
     return array;
